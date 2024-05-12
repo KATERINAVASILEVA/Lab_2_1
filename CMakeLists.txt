@@ -15,9 +15,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 # добавляем директории
 include_directories("inc/")
-include_directories("src/")
 	
 
-add_executable("${PROJECT_NAME}" main.cpp src/func.cpp inc/func.hpp assets/time.txt)
+add_executable("${PROJECT_NAME}" main.cpp src/func.cpp inc/func.hpp)
 		
 file(COPY "assets" DESTINATION "/")								

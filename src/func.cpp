@@ -46,6 +46,7 @@ namespace mt
 		}
 		else
 		{
+			std::cout << counter;
 			file << std::endl << std::to_string(counter) << std::put_time(std::localtime(&time), " %F-%H-%M-%S");
 		}
 	}
